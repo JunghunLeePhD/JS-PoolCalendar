@@ -1,0 +1,17 @@
+{
+  "name": "Pool Calendar Bot",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.eol": "\n"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install || echo 'npm install failed - run manually'",
+  "remoteUser": "node"
+}
