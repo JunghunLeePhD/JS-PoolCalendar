@@ -20,9 +20,10 @@ pool-calendar-bot/
 ├── .github/workflows/   # GitHub Actions automation script
 ├── src/
 │   ├── index.js         # Main controller
-│   ├── 1_download.js    # PDF fetcher
-│   ├── 2_analyze.js     # Gemini AI extraction logic
-│   └── 3_generate.js    # ICS generator
+│   ├── debug_models.js    # List up available Gemini models
+│   ├── fetcher.js    # PDF fetcher
+│   ├── analyzer.js     # Gemini AI extraction logic
+│   └── generator.js    # ICS generator
 ├── package.json         # Dependencies
 └── README.md
 ```
