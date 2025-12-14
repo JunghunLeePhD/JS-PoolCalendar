@@ -48,10 +48,8 @@ pool-calendar-bot/
 
 1. Clone the repository:
 
-Bash
-
-```
-git clone [https://github.com/JunghunLeePhD/JS-PoolCalendar](https://github.com/JunghunLeePhD/JS-PoolCalendar)
+```bash
+git clone [[](https://github.com/JunghunLeePhD/JS-PoolCalendar)](https://github.com/JunghunLeePhD/JS-PoolCalendar)
 cd JS-PoolCalendar
 ```
 
